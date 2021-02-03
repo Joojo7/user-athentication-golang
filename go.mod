@@ -9,4 +9,5 @@ require (
 	github.com/heroku/x v0.0.26
 	github.com/joho/godotenv v1.3.0
 	go.mongodb.org/mongo-driver v1.4.5
+	golang.org/x/crypto v0.0.0-20190829043050-9756ffdc2472
 )

@@ -13,7 +13,6 @@ type User struct {
 	Last_name     *string            `json:"last_name" validate:"required,min=2,max=100"`
 	Password      *string            `json:"Password" validate:"required,min=6""`
 	Email         *string            `json:"email" validate:"email,required"`
-	Avatar        *string            `json:"avatar" `
 	Phone         *string            `json:"phone" validate:"required"`
 	Token         *string            `json:"token"`
 	Refresh_token *string            `json:"refresh_token"`

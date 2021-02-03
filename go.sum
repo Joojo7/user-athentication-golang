@@ -99,6 +99,7 @@ github.com/grpc-ecosystem/grpc-gateway v1.9.4/go.mod h1:vNeuVxBJEsws4ogUvrchl83t
 github.com/grpc-ecosystem/grpc-gateway v1.9.6/go.mod h1:vNeuVxBJEsws4ogUvrchl83t/GYV9WGTSLVdBhOQFDY=
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
+github.com/heroku/go-getting-started v0.0.0-20200903193017-b7ec67bd83f1 h1:eiihSkdSfQVyz5eHcwp6/e7YW5qwfSLWF2vwX+qPV6o=
 github.com/heroku/rollrus v0.2.0/go.mod h1:B3MwEcr9nmf4xj0Sr5l9eSht7wLKMa1C+9ajgAU79ek=
 github.com/heroku/x v0.0.26 h1:hdHki6Gsh7aVKuea7R8bX/OHzaeng76mfFzoagPSp4Q=
 github.com/heroku/x v0.0.26/go.mod h1:qE/I0jp6rIeTBBosrPYV4ygRX3OMhqmC/A6x8ewodJQ=
