@@ -1,4 +1,4 @@
-module user-authentication-golang/new
+module user-athentication-golang
 
 go 1.15
 

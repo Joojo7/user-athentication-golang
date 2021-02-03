@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"user-authentication-golang/new/database"
+	"user-athentication-golang/database"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"

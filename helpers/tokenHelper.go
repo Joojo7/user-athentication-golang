@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"user-authentication-golang/new/database"
+	"user-athentication-golang/database"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"go.mongodb.org/mongo-driver/bson"

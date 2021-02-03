@@ -11,10 +11,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 
-	"user-authentication-golang/new/database"
+	"user-athentication-golang/database"
 
-	helper "user-authentication-golang/new/helpers"
-	"user-authentication-golang/new/models"
+	helper "user-athentication-golang/helpers"
+	"user-athentication-golang/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
