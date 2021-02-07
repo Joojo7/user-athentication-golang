@@ -196,8 +196,13 @@ func GetUsers() gin.HandlerFunc {
 //GetUser is the api used to tget a single user
 func GetUser() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		var ctx, cancel = context.WithTimeout(context.Background(), 100*time.Second)
 		userId := c.Param("user_id")
+
+		if err := helper.MatchUserTypeToUid(c, userId); err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+			return
+		}
+		var ctx, cancel = context.WithTimeout(context.Background(), 100*time.Second)
 
 		var user models.User
 

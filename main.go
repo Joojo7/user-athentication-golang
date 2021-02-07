@@ -3,7 +3,6 @@ package main
 import (
 	"os"
 
-	middleware "user-athentication-golang/middleware"
 	routes "user-athentication-golang/routes"
 
 	"github.com/gin-gonic/gin"
@@ -19,10 +18,8 @@ func main() {
 
 	router := gin.New()
 	router.Use(gin.Logger())
+
 	routes.AuthRoutes(router)
-
-	router.Use(middleware.Authentication())
-
 	routes.UserRoutes(router)
 
 	// API-2
